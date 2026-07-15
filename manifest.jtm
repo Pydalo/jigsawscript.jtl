@@ -1,0 +1,30 @@
+# MANIFEST.jtn
+
+# extradata:
+author: "Peter Helmut Wohlfarth"
+release-date: "--.--.--"
+description: "This language is the main language of the jitrannetwork."
+
+# language - jigsawscript -
+id: "jigsawscript"
+version: 1.0
+
+# transpiler-meta:
+stdlib-version: 1.0
+transpiler-version: 1.0
+supported-backends: *
+default-backend: "java"
+keywords:
+  - "highlevel"
+  - "jigsawscript"  
+
+# syntax:
+re-declineble-methods: true
+
+# looking for mylang here:
+homepage: "https://funlanguage/this/page/not/exists"
+repository: "https://github.com/funnynotexists/funlanguage"
+forum-url: "https://jitran.net/lang/1r3uH"
+examples:
+  - "hello_world.jig"
+  - "switch_case.jig"
